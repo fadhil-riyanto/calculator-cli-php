@@ -1,7 +1,9 @@
 <?php
+//Lisensi Bebas
+//Create by Internsial Node
 echo '|------Selamat datang di kalkulator cli ini.----|' ."\n";
 menu:
-echo "|----Menu----| ". "\n";
+echo "|----Menu Operator----| ". "\n";
 echo "| 1. + function ". "\n";
 echo "| 2. - function ". "\n";
 echo "| 3. x function ". "\n";
@@ -53,6 +55,6 @@ if ($option == 1)
   echo '           |---->wrong option!!!'."\n";
   goto menu;
  }
-echo "|---->Function result is: $out"."\n";  
+echo "|---->Hasil is: $out"."\n";  
 goto menu;
 ?> 
